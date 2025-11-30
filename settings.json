@@ -1,6 +1,12 @@
 {
-    "workbench.colorTheme": "Ayu Mirage Bordered",
-    "editor.lineHeight": 1.8,
+    "workbench.colorTheme": "Tokyo Night",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 1.92,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
     "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
-    "editor.renderWhitespace": "all"
+    "markdown.preview.fontSize": 10,
+    "markdown.preview.lineHeight": 2.2,
+    "editor.formatOnSave": true,
 }
