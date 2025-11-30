@@ -8,5 +8,5 @@
     "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
     "markdown.preview.fontSize": 10,
     "markdown.preview.lineHeight": 2.2,
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
 }
