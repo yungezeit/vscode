@@ -1,0 +1,63 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "shift+alt+up",
+    "command": "editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "-editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "-editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "editor.action.jumpToBracket"
+  },
+  {
+    "key": "ctrl+pagedown",
+    "command": "workbench.action.splitEditorRight"
+  },
+  {
+    "key": "ctrl+pageup",
+    "command": "workbench.action.splitEditorLeft"
+  },
+  {
+    "key": "ctrl+alt+p",
+    "command": "editor.gotoParentFold"
+  },
+  {
+    "key": "ctrl+[Backquote]",
+    "command": "workbench.action.tasks.runTask"
+  },
+  {
+    "key": "ctrl+oem_102",
+    "command": "editor.action.codeAction",
+    "args": {
+      "kind": "refactor.rewrite.arrow.braces"
+    }
+  },
+  {
+    "key": "ctrl+q",
+    "command": "-workbench.action.quit"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.closeActiveEditor"
+  }
+]
